@@ -1,0 +1,46 @@
+.errorContainer {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.errorImageContainer {
+	max-width: 50vw;
+}
+
+.errorText {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	text-align: center;
+}
+.errorHeading {
+	color: var(--primary-color);
+}
+
+.errorSubheading {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: var(--text-color);
+}
+
+.errorButton {
+	font-size: 1.25rem;
+	color: white;
+	background-color: var(--primary-color);
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+	.errorContainer {
+		flex-direction: column;
+		justify-content: center;
+		padding: 1rem;
+	}
+}

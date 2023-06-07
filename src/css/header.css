@@ -1,0 +1,18 @@
+.header {
+	background-color: whitesmoke;
+	position: sticky;
+	top: 0;
+}
+.headerContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerContainer button {
+	font-size: 14px;
+	padding: 5px 15px;
+	margin: 2px;
+}
+.header-login-container {
+	display: flex;
+}

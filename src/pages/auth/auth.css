@@ -1,0 +1,44 @@
+.formCard {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	margin: 20px;
+}
+.formInputContainer {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+/* Logout CSS */
+.logoutContainer {
+	display: flex;
+	flex-direction: row;
+}
+.leftLogoutCard {
+	padding: 20px;
+	width: 50%;
+}
+.rightLogoutCard {
+	width: 50%;
+	height: 100%;
+}
+.rightLogoutCard img {
+	margin: 20px;
+	width: auto;
+	align-self: center;
+}
+/* signUp css */
+.errorMessage {
+	color: red;
+}
+.submitButton {
+	padding: 10px;
+	background-color: #2f52e0;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}

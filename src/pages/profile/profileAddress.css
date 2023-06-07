@@ -1,0 +1,61 @@
+.address {
+	align-items: center;
+}
+.addNewAddress {
+	padding: 10px 0px;
+	width: 410px;
+	border: 3px solid var(--darker-brown);
+	position: sticky;
+	font-size: 16px;
+}
+
+.addressCard {
+	width: 380px;
+	text-align: left;
+	border: 2px dotted var(--darker-brown);
+	margin-top: 10px;
+	padding: 20px 10px;
+}
+.buttonContaniner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.buttonCard {
+	padding: 5px;
+	width: 150px;
+	font-size: 16px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+.edit {
+	background-color: #4bb543;
+}
+.delete {
+	background-color: red;
+}
+/* Prile.jsx css */
+.profileContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-color: var(--darker-brown);
+	color: white;
+}
+.profileLinks p {
+	color: white;
+	padding: 10px;
+}
+.profileLinks p:hover {
+	background-color: var(--light-brown);
+	color: var(--darker-brown);
+	cursor: pointer;
+}
+.detailsContainer {
+	background-color: white;
+}
